@@ -43,7 +43,8 @@ export const englishStrings = {
     type: 'Type',
     description: 'Description',
     admin: 'Admin',
-    endUser: 'End User'
+    endUser: 'End User',
+    searchPlaceholder: 'Search tickets, assets, users...'
   },
   navigation: {
     dashboard: 'Dashboard',
@@ -267,6 +268,18 @@ export const englishStrings = {
     userDeleted: 'User deleted successfully',
     loginSuccess: 'Successfully logged in',
     logoutSuccess: 'Successfully logged out'
+  },
+  search: {
+    title: 'Search Results',
+    noResults: 'No results found',
+    tickets: 'Tickets',
+    assets: 'Assets',
+    users: 'Users',
+    viewAllResults: 'View all results',
+    searchPlaceholder: 'Search tickets, assets, users...',
+    resultsFor: 'Results for',
+    totalResults: '{count} result{plural}',
+    noQuery: 'Enter a search term to find tickets, assets, and users'
   }
 }
 
@@ -312,7 +325,8 @@ export const spanishStrings = {
     type: 'Tipo',
     description: 'Descripción',
     admin: 'Administrador',
-    endUser: 'Usuario Final'
+    endUser: 'Usuario Final',
+    searchPlaceholder: 'Buscar tickets, activos, usuarios...'
   },
   navigation: {
     dashboard: 'Panel de Control',
@@ -536,6 +550,18 @@ export const spanishStrings = {
     userDeleted: 'Usuario eliminado exitosamente',
     loginSuccess: 'Sesión iniciada exitosamente',
     logoutSuccess: 'Sesión cerrada exitosamente'
+  },
+  search: {
+    title: 'Resultados de Búsqueda',
+    noResults: 'No se encontraron resultados',
+    tickets: 'Tickets',
+    assets: 'Activos',
+    users: 'Usuarios',
+    viewAllResults: 'Ver todos los resultados',
+    searchPlaceholder: 'Buscar tickets, activos, usuarios...',
+    resultsFor: 'Resultados para',
+    totalResults: '{count} resultado{plural}',
+    noQuery: 'Ingresa un término de búsqueda para encontrar tickets, activos y usuarios'
   }
 }
 

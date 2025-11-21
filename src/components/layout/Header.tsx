@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 import { LanguageSwitcher } from '@/components/ui/language-switcher'
+import { UnifiedSearchBar } from '@/components/search/UnifiedSearchBar'
 
 
 export function Header() {
@@ -22,9 +23,13 @@ export function Header() {
 
   return (
     <header className="border-b bg-white">
-      <div className="flex h-16 items-center px-4">
+      <div className="flex h-16 items-center px-4 gap-4">
         <div className="flex items-center space-x-4">
           <h1 className="text-xl font-bold">{authStrings.appTitle}</h1>
+        </div>
+        
+        <div className="flex-1 flex justify-center">
+          <UnifiedSearchBar />
         </div>
         
         <div className="ml-auto flex items-center space-x-4">
