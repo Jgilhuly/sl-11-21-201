@@ -124,7 +124,20 @@ export const englishStrings = {
     noAssetsYet: 'No assets yet',
     hardwareAndSoftware: 'hardware and software',
     noAssignedAssets: 'No assigned assets',
-    currentlyInUse: 'currently in use'
+    currentlyInUse: 'currently in use',
+    charts: {
+      title: 'Statistics Charts',
+      ticketStatusDistribution: 'Ticket Status Distribution',
+      ticketPriorityDistribution: 'Ticket Priority Distribution',
+      assetStatusDistribution: 'Asset Status Distribution',
+      assetTypeDistribution: 'Asset Type Distribution',
+      ticketsOverTime: 'Tickets Over Time',
+      assetsOverTime: 'Assets Over Time',
+      noData: 'No data available',
+      count: 'Count',
+      date: 'Date',
+      last30Days: 'Last 30 Days'
+    }
   },
   tickets: {
     title: 'Tickets',
@@ -380,7 +393,20 @@ export const spanishStrings = {
     noAssetsYet: 'No hay activos aún',
     hardwareAndSoftware: 'hardware y software',
     noAssignedAssets: 'No hay activos asignados',
-    currentlyInUse: 'actualmente en uso'
+    currentlyInUse: 'actualmente en uso',
+    charts: {
+      title: 'Gráficos de Estadísticas',
+      ticketStatusDistribution: 'Distribución de Estado de Tickets',
+      ticketPriorityDistribution: 'Distribución de Prioridad de Tickets',
+      assetStatusDistribution: 'Distribución de Estado de Activos',
+      assetTypeDistribution: 'Distribución de Tipo de Activos',
+      ticketsOverTime: 'Tickets a lo Largo del Tiempo',
+      assetsOverTime: 'Activos a lo Largo del Tiempo',
+      noData: 'No hay datos disponibles',
+      count: 'Cantidad',
+      date: 'Fecha',
+      last30Days: 'Últimos 30 Días'
+    }
   },
   tickets: {
     title: 'Tickets',
